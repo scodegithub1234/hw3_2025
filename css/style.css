@@ -109,8 +109,12 @@ first div in the grid  and place it in the grid. */
           padding-right: 0px;
           padding-top: 30px;
           padding-bottom: 30px;
-          margin-right: 100px;
+          align-items: right;
      }
+     nav ul{
+          justify-self: end;
+     }
+
 
   /* Step 10: Write the selector/rule property to update the .container class */
      .container{
