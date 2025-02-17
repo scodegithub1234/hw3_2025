@@ -40,7 +40,7 @@ first div in the grid  and place it in the grid. */
 
 .container > div:first-of-type {
      grid-column: 1/-1; 
-     background: url("/images/header.jpg");
+     background-image: url('../images/header.jpg');
      background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
